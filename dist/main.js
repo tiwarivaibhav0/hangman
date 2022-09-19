@@ -1,1 +1,1 @@
-alert("Hello from src/index.js");
+(()=>{"use strict";alert("Welcome! user")})();

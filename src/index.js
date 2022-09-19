@@ -1,1 +1,3 @@
-alert("Hello from src/index.js");
+import { welcome } from "./welcome";
+
+welcome();
