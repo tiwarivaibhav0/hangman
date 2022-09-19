@@ -14,8 +14,8 @@
     "webpack-dev-server": "^4.11.0"
   },
   "scripts": {
-    "build": "webpack --config custom.js",
-    "dev": "webpack serve --config custom.js"
+    "build": "webpack --config config.prod.js",
+    "dev": "webpack serve --config config.dev.js"
   },
   "repository": {
     "type": "git",
