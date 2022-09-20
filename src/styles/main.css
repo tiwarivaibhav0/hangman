@@ -1,7 +1,79 @@
 
 body{
-    background-color: black;
-    color: white;
+    background-color: rgb(214, 214, 248);
+    /* background-image: url("/dist/bg.jpg"); */
+    width: 80%;
+    margin: auto;
+
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
+    text-align: center;
 }
+h3{
+    color: rgb(10, 10, 10);
+}
+#hint{
+     /* background-color: rgb(158, 205, 252);
+     width: 40%;
+     margin: auto;
+     height: 100px;
+     border-radius: 5px; */
+     margin-top: 20%;
+
+}
+
+input{
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 8px;
+
+    
+}
+#over{
+    color: red;
+}
+#win{
+    color:rgb(28, 240, 28);
+}
+button{
+    background-color: #f7f4f7;
+    color: rgb(5, 14, 0);
+    font-size: large;
+    height: 55px;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+#true{
+    background-color: rgb(121, 245, 121);
+    font-size: 120%;
+    border-color: green;
+    height: 45px;
+
+}
+img{
+    margin-top: 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.9);
+    color: whitesmoke;
+    border-radius: 10px;
+    align-items: stretch;
+}
+.boxes{
+    margin-left: 20px;
+}
+
+.res{
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     */
+    
+}
+
